@@ -1,0 +1,26 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;  
+}
+
+p{
+    background-color: teal;
+    color:white;
+    text-align: center;
+    /* padding: 30px; */
+    /* padding: 100px 50px */
+    padding: 20px 100px 20px 10px;
+    /* border: 2px solid orangered;  */
+    /* border: 5px dotted orangered;  */
+    /* border: 5px groove orangered;  */
+    border-left: 2px solid orangered;
+    /* margin: 50px; */
+    margin: 20px 20px;
+    /* margin: 20px 50px 40px 30px; */
+    width:20px;
+}
+
+div{
+    width:50%;
+}
