@@ -1,0 +1,68 @@
+/* class selector */
+.center-element{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color:orangered;
+}
+
+/* element selector */
+p{
+    color: orangered;
+}
+
+/* Id selector */
+#para-two{
+    color:blue;
+}
+
+/* Universal Selector */
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+/* grouping selectors */
+h1, h2 {
+    color:greenyellow;
+}
+
+/* Psuedo-class selectors */
+
+h1:hover{
+    color: teal;
+    border-bottom: 2px solid greenyellow;
+    width:50%;
+    margin: auto;
+}
+
+/* psuedo-element selectors */
+
+#para-two::first-letter{
+    font-size: 100px;
+}
+
+#para-two::before{
+    content: "20 ";
+}
+
+#para-two::after{
+    content: " 50";
+}
+
+/* attribute selector */
+p[title="code"]{
+    color:purple;
+}
+
+/* decendant combinator selector */
+body div{
+    border: 2px dotted blue;
+}
+
+/* child combinator selector */
+body > div{
+    border: 2px solid red;
+    margin:10px;
+}
