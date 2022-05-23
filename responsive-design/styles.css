@@ -1,0 +1,55 @@
+/* Desktop styles*/
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width:100%;
+}
+
+img{
+    width: 100%;
+}
+
+.about{
+    flex-basis: 40%;
+}
+
+/* Mobile Screen styles*/
+@media screen and (max-width:425px) {
+    body{
+        background-color: orange;
+    }
+
+    .profile{
+        flex-direction: column-reverse;
+    }
+}
+
+/* Orientation of screen */
+
+/* @media screen and (orientation: landscape){
+    body{
+        background-color: green;
+    }
+} */
+
+/* Tablet Screen styles*/
+@media screen and (max-width: 800px) and (min-width: 768px){
+    body{
+        background-color: teal;
+        color: white;
+    }
+
+    .profile{
+        flex-direction: column;
+    }
+
+    .about{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+}
+
+
+
